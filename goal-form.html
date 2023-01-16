@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goal Form</title>
+    
+    <link href="css/form.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <img src="images/project_logo.png">
+        <a href="dashboard.html"><button>Goalify</button></a>
+        <a href="dashboard.html"><button>Dashboard</button></a>
+        <a href="planner.html"><button>Planner</button></a>
+        <a href="index.html" class="login-button"><button>Log Out</button></a>
+        <!--<a href="#"><li>Settings</li></a>-->
+        <!--<a href="#"><li>Log In</li></a>-->
+    </div>
+
+    <div class="formular">
+        <h2 style="font-size:30px; text-shadow: 3px 2px 2px #b9b9b985;">Set your goal:</h2>
+        <form action="planner.html">
+            <br>
+            <label for="forname" style="text-shadow: 3px 2px 2px #b9b9b985;">Name:</label>
+            <input type="text" id="gname" name="goalname" style="box-shadow: 2px 3px 5px 1px #bab7b785;" placeholder="Name your goal">
+
+            <br>
+            <label for="type">Category:</label>
+            <select id="type" name="type" style="box-shadow: 2px 3px 5px 1px #bab7b785; text-shadow: 3px 2px 2px #b9b9b985;">
+                <option value="spiritual">Spiritual</option>
+                <option value="financial">Financial</option>
+                <option value="career">Career</option>
+                <option value="intellectual">Intellectual</option>
+                <option value="fitness">Fitness</option>
+                <option value="family">Family</option>
+                <option value="social">Social</option>
+            </select>
+            
+            <br>
+            <label for="gdescription" style="text-shadow: 3px 2px 2px #b9b9b985;">Shortly describe your goal:</label>
+            <input type="text" id="gdescription" name="goaldescription" style="box-shadow: 2px 3px 5px 1px #bab7b785;" placeholder="Description">
+
+            <br>
+            <label for="smartdescription" style="text-shadow: 3px 2px 2px #b9b9b985;">SMART description</label>
+            <textarea input type="text" id="sdescription" name="sdescroption" placeholder="Specific : target a specific area for improvement"></textarea>
+            <textarea input type="text" id="mdescription" name="mdescroption" placeholder="Measurable : quantify or at least suggest an indicator of progress"></textarea>
+            <textarea input type="text" id="adescription" name="asdescroption" placeholder="Assignable : specify who will do it"></textarea>
+            <textarea input type="text" id="rdescription" name="rsdescroption" placeholder="Realistic : state what results can realistically be achieved"></textarea>
+            <textarea input type="text" id="tdescription" name="tsdescroption" placeholder="Time-realted :  specify when the result(s) can be achieved"></textarea>
+
+            <br>
+            <label for="duedate" style="margin-top:6px; text-shadow: 3px 2px 2px #b9b9b985;">Due date:</label>
+            <br>
+            <input type="date" id="duedate" name="duedate" style="padding:7px; margin-top:7px; font-family:Arial, Helvetica, sans-serif; border-radius: 4px; border: 1px solid #ccc; box-shadow: 2px 3px 5px 1px #bab7b785;">
+            <br><br>
+            <input type="submit" value="Submit" style="box-shadow: 2px 3px 5px 1px #bab7b785; text-shadow: 3px 2px 2px #b9b9b985; background: #295ad4; float: right;">
+        </form>
+    </div>
+</body>
+</html>

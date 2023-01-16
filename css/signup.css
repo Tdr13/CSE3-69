@@ -1,0 +1,131 @@
+body {
+    padding-top: 80px;
+    background-color: #f5e9e7;
+    background-image: linear-gradient(135deg, #f7a797 30%, #f77358 95%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    color: #333333;
+}
+
+.box-form {
+    margin: 0 auto;
+    width: 80%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100%;
+    align-items: stretch;
+    justify-content: space-between;
+    box-shadow: 0 0 25px 10px #090b6f85;
+}
+
+
+@media (max-width: 980px) {
+    .box-form {
+      flex-flow: wrap;
+      text-align: center;
+      align-content: center;
+      align-items: center;
+    }
+}
+
+.box-form div {
+    height: auto;
+}
+
+.box-form .left {
+    color: #FFFFFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/login.png);
+    background-position: center;
+    overflow: hidden;
+    flex-grow: 3;
+}
+
+.box-form .left .overlay {
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    background: #5961f9ad;
+    overflow: hidden;
+    box-sizing: border-box;  
+}
+
+.box-form .left .overlay h1 {
+    font-size: 4vmax;
+    line-height: 1;
+    font-weight: 800;
+    margin-top: 22vmax;
+    margin-bottom: 30px;
+}
+
+.box-form .left .overlay p {
+    font-size: 1.5vmax;
+    margin-bottom: 20px;
+}
+
+.box-form .right {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    overflow: hidden;
+    flex-grow: 2;
+    width: 8em
+}
+
+@media (max-width: 800px) {
+    .box-form .right {
+        width: 100%;
+    }
+}
+
+.box-form .right h5{
+    font-size: 5vmax;
+    line-height: 0;
+}
+
+.box-form .right h2{
+    font-size: 3vmax;
+    line-height: 0;
+}
+
+.box-form .right p {
+    font-size: 14px;
+    color: #B0B3B9;
+}
+
+.box-form .right .inputs {
+    overflow: hidden;
+}
+
+.box-form .right input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-bottom: 3px solid #B0B3B9;
+}
+
+
+.box-form .right button {
+    float: right;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 35px;
+    border-radius: 50px;
+    border: 0;
+    outline: 0;
+    box-shadow: 0px 4px 20px 0px #295ad4;
+    background-image: linear-gradient(135deg, #5961f9ad 10%, #5961f9ad 100%);
+}
+  
