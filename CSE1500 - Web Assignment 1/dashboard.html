@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    
+    <link href="css/dashboard.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <img src="images/project_logo.png">
+        <a href="dashboard.html"><button>Goalify</button></a>
+        <a href="dashboard.html"><button>Dashboard</button></a>
+        <a href="planner.html"><button>Planner</button></a>
+        <a href="index.html" class="login-button"><button>Log Out</button></a>
+        <!--<a href="#"><li>Settings</li></a>-->
+        <!--<a href="#"><li>Log In</li></a>-->
+    </div>
+
+    <div class="dashboard-box">
+        <div class="progress">
+            <h1>Progress</h1>
+            <div class="separator"></div>
+            <p>Pinned Goals</p>
+            
+            <div class="progress-goals">
+                <ul>
+                    <li>Goal 1</li>
+                    <div class="progress-bar">
+                        <div class="bar1"></div>
+                    </div>
+                    <li>Goal 2</li>
+                    <div class="progress-bar">
+                        <div class="bar2"></div>
+                    </div>
+                    <li>Goal 3</li>
+                    <div class="progress-bar">
+                        <div class="bar1"></div>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="stats">
+                <h2>Statistics</h2>
+
+                <div class="stats-style">
+                    <div class="element"><p>Goals<br>10</p></div>
+                    <div class="element"><p>On-going<br>3</p></div>
+                    <div class="element"><p>Achieved<br>2</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="today">
+            <h1>14 January, 2023</h1>
+            <div class="separator"></div>
+            <p>Today's Tasks</p>
+
+            <div class="to-dos">
+                <input id="item1" type="checkbox">
+                <label class="item" for="item1">Create a to-do list (JavaScript)</label>
+
+                <input id="item2" type="checkbox" checked>
+                <label class="item" for="item2">Make A Website</label>
+                
+                <input id="item3" type="checkbox">
+                <label class="item" for="item3">Pass WDT Assignments</label>
+
+                <input id="item4" type="checkbox">
+                <label class="item" for="item4">Study for exams</label>
+            </div>
+
+            <div class="productivity">
+                <h2>Productivity</h2>
+
+                <div class="prod-style">
+                    <div class="element"><p>Completed<br>1/4</p></div>
+                    <div class="element"><p>Progress<br>25%</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="deadlines">
+            <h1>Deadlines</h1>
+            <div class="separator"></div>
+            <p class="upcome">Upcoming Deadlines</p>
+
+            <div class="deadlines-list">
+                <ul>
+                    <li><div class="dl-item"><p>Web Assignment 1</p><p>16.01.2023</p></div></li>
+                    <li><div class="dl-item"><p>ADS Analysis</p><p>20.01.2023</p></div></li>
+                    <li><div class="dl-item"><p>Calculus</p><p>23.01.2023</p></div></li>
+                </ul>
+            </div>
+
+            <div class="performance">
+                <h2>Performance</h2>
+
+                <div class="pref-style">
+                    <div class="element"><p style="font-weight: bold;">Remaining<br>3</p></div>
+                    <div class="element"><p>Overdue<br>0</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="coloumns">
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="link_footer"><p>About us</p></a>
+            <a href="https://www.youtube.com/watch?v=TuQC5hhhqkY" class="link_footer"><p>Contact</p></a>
+            <a href="https://www.youtube.com/watch?v=0Kvw2BPKjz0" class="link_footer"><p>Terms of service</p></a>
+            <a href="https://www.youtube.com/watch?v=z_AgCzt9zcM" class="link_footer"><p>Privacy Policy</p></a>
+        </div>
+
+        <div class="social-media">
+            <a href="https://www.facebook.com/"><img src="./images/facebook_logo.png"></a>
+            <a href="https://www.instagram.com/"><img src="./images/inta_logo.png"></a>
+            <a href="https:/twitter.com/"><img src="./images/twitter_logo.png"></a>
+            <a href="https://www.linkedin.com/"><img src="./images/linkedin_logo.png"></a>
+        </div>
+        <div>
+            <p class="link_footer">Copyright © 2023. All rights reserved </p>
+        </div>
+    </div>
+</body>
+</html>
